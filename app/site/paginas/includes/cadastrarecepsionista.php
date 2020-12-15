@@ -14,7 +14,7 @@
                         <input id="email_cad" name="email_cad" required="required" type="text" placeholder="exemplo@gmail.com" />
                     </p>
                     <p id="larguraespaço">
-                        <label for="senha_cad"> Cadastro </label>
+                        <label for="senha_cad"> Senha </label>
                         <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="" />
                     </p>
                     <a href="cpanel.php?pg=agenda" class="btn btn-block btn-primary">Entrar</a>
