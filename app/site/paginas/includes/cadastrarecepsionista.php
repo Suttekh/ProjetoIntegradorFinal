@@ -2,19 +2,19 @@
 <link rel="stylesheet" href="app/assets/css/painel.css">
 
 
-<body class="corpo">
+<body>
 
     <div class="container">
         <div class="content">
             <div id="cadastro">
                 <form method="post" action="">
                     <h1>Cadastro Recepcionista</h1>
-                    <p>
-                        <label for="email_cad"> Cadastro</label>
-                        <input id="email_cad" name="email_cad" required="required" type="text" placeholder="joana-santos@gmail.com" />
+                    <p id="larguraespaço">
+                        <label for="email_cad"> Cadastro </label>
+                        <input id="email_cad" name="email_cad" required="required" type="text" placeholder="exemplo@gmail.com" />
                     </p>
-                    <p>
-                        <label for="senha_cad">Senha</label>
+                    <p id="larguraespaço">
+                        <label for="senha_cad"> Cadastro </label>
                         <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="" />
                     </p>
                     <a href="cpanel.php?pg=agenda" class="btn btn-block btn-primary">Entrar</a>

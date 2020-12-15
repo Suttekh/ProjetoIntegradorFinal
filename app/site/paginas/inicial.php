@@ -1,5 +1,5 @@
 <!-- Agendamento -->
-
+<section style="border: solid orange 3px"></section> 
 <div class="container-fluid bg-white">
   <div class="row">
     <div class="col-12 text-sm-center col-md-5">
@@ -8,7 +8,7 @@
     <div class="col-12 m-4 m-md-0 col-md-5">
       <div id="agenda" class="row">
         <div class="col mb-5 ml-5 pl-5">
-          <h2 class="font-italic" style="font-family: san;" > <span class="icon-event_note ml-5"></span>Agendamento Online</h2>
+          <h2 class="font-italic" style="font-family: san;" > <span class="icon-event_note mr-3 ml-5"></span> <span class="haha"> Agendamento Online </span></h2>
           <p class="paragraph mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eum reprehenderit aspernatur debitis facere facilis rerum, adipisci et, quibusdam sed accusamus architecto velit! Reprehenderit maiores earum expedita tempore vitae similique.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eum reprehenderit aspernatur debitis facere facilis rerum, adipisci et, quibusdam sed accusamus architecto velit! Reprehenderit maiores earum expedita tempore vitae similique..</p>
         </div>
       </div>
@@ -16,15 +16,15 @@
   </div>
 </div>
 
-
+<section style="border: solid orange 3px"></section> 
 <!-- Fim agendamento -->
 
 <!-- Especialidades -->
 
 
-<div class="container-fluid" style="background-color: #6E9AC1;">
+<div class="container-fluid" style="background-color: #00407e;">
   <br>
-  <h1 class="font-italic text-center" style="font-family: san;" >Nossas especialidades:</h1>
+  <h1 class="font-italic text-center" style="font-family: san;" ><span style="color: white;">Nossas especialidades: </span></h1>
   <br>
   <!--Carousel Wrapper-->
   <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
@@ -56,10 +56,10 @@
       
       <div class="col-md-3 pb-4" style="float:left">
        <div class="card mb-2">
-         <img class="card-img-top"
+         <img style="border: orange solid 2px;" class="card-img-top"
          src="app/assets/img/cards/psicologo.jpg" alt="Card image cap">
-         <div class="card-body">
-           <h4 class="card-title">Psicólogo</h4>
+         <div id="cardinici" class="card-body">
+           <h4 class="card-title text-center">Psicólogo</h4>
            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
              card's content.</p>
             </div>
@@ -69,10 +69,10 @@
         
         <div class="col-md-3 pb-4" style="float:left">
           <div class="card mb-2">
-            <img class="card-img-top"
+            <img style="border: orange solid 2px;" class="card-img-top"
             src="app/assets/img/cards/ped.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Pediatra</h4>
+            <div id="cardinici" class="card-body">
+              <h4 class="card-title text-center">Pediatra</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
             </div>
@@ -81,10 +81,10 @@
         
         <div class="col-md-3 pb-4" style="float:left">
           <div class="card mb-2">
-            <img class="card-img-top"
+            <img style="border: orange solid 2px;" class="card-img-top"
             src="app/assets/img/cards/orto.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Ortopedista</h4>
+            <div id="cardinici" class="card-body">
+              <h4 class="card-title text-center">Ortopedista</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                 card's content.</p>
               </div>
@@ -93,10 +93,10 @@
           
           <div class="col-md-3 pb-4" style="float:left">
             <div class="card mb-2">
-              <img class="card-img-top"
+              <img style="border: orange solid 2px;" class="card-img-top"
               src="app/assets/img/cards/cardiologista.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">Cardiologista</h4>
+              <div id="cardinici" class="card-body">
+                <h4 class="card-title text-center">Cardiologista</h4>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
                 </div>
@@ -111,10 +111,10 @@
             
             <div class="col-md-3 pb-4" style="float:left">
               <div class="card mb-2">
-          <img class="card-img-top"
+          <img style="border: orange solid 2px;" class="card-img-top"
           src="app/assets/img/cards/dent.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Odontologista</h4>
+          <div id="cardinici" class="card-body">
+            <h4 class="card-title text-center">Odontologista</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
             </div>
@@ -123,10 +123,10 @@
       
       <div class="col-md-3 pb-4" style="float:left">
         <div class="card mb-2">
-          <img class="card-img-top"
+          <img style="border: orange solid 2px;" class="card-img-top"
           src="app/assets/img/cards/psiquiatria.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Psiquiatria</h4>
+          <div id="cardinici" class="card-body">
+            <h4 class="card-title text-center">Psiquiatria</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
             </div>
@@ -135,10 +135,10 @@
         
         <div class="col-md-3 pb-4" style="float:left">
           <div class="card mb-2">
-            <img class="card-img-top"
+            <img style="border: orange solid 2px;" class="card-img-top"
             src="app/assets/img/cards/uro.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Urologista</h4>
+            <div id="cardinici" class="card-body">
+              <h4 class="card-title text-center">Urologista</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                 card's content.</p>
               </div>
@@ -147,10 +147,10 @@
       
       <div class="col-md-3 pb-4" style="float:left">
         <div class="card mb-2">
-          <img class="card-img-top"
+          <img style="border: orange solid 2px;" class="card-img-top"
           src="app/assets/img/cards/gine.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Ginecologista</h4>
+          <div id="cardinici" class="card-body">
+            <h4 class="card-title text-center">Ginecologista</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
             </div>
@@ -164,22 +164,22 @@
       
     </div>
     <!--/.Slides-->
-    
   </div>
   <!--/.Carousel Wrapper-->
 </div>
-
+<section style="border: solid orange 3px"></section>   
 
 <!-- Plano de saúde -->
 <div class="container-fluid bg-white">
   <div  class="row justify-content-around" style="font-family: san;">
     <div>
       <br>
-      <h1 class="font-italic">Vínculos com planos de saúde:</h1>
+      <h1 class="font-italic text-center">Vínculos com planos de saúde:</h1>
       <br>
-      <img src="app/assets/img/navegacao/planosaude.jfif" width="" height="" class="" />
+      <img class="planos" src="app/assets/img/navegacao/planosaude.jfif" width="" height="" class="" />
       <br>
     </div>
   </div>
 </div>
+<section style="border: solid orange 3px"></section> 
 <!-- Fim plano de saúde -->

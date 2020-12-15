@@ -27,7 +27,7 @@
             
             <div class="form-group text-right">
                 
-                <button type="submit" class="btn btn-primary">Enviar
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar
                     <span class="bre-send"></span>
                 </button>
             </div>

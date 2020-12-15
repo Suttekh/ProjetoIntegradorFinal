@@ -44,17 +44,17 @@
       <!--FORMULÁRIO DE CADASTRO-->
       <div id="cadastro">
         <form method="post" action="">
-          <h1>Painel Adm</h1>
-          <p>
+          <h1 id="pnltxt" class="text-center"><b> Painel Administrativo </b></h1>
+          <p id="larguraespaço">
             <label for="email_cad">Usuário:</label>
-            <input id="email_cad" name="email_cad" required="required" type="text" placeholder="marta.silva@hotmail.com" />
+            <input id="email_cad" name="email_cad" required="required" type="text" placeholder="exemplo@hotmail.com" />
           </p>
-          <p>
+          <p id="larguraespaço">
             <label for="senha_cad">Senha:</label>
             <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="" />
           </p>
           <a href="cpanel.php?pg=agenda" class="btn btn-block btn-primary">Entrar</a>
-          <a href="index.php?pg=inicial" class="btn btn-block btn-warning my-4">Voltar</a>
+          <a href="index.php?pg=inicial" class="btn btn-block btn-warning my-3">Voltar</a>
           <hr style="border-color: black;" >
           <div style="text-align: center;" ><a   href="index.php?pg=cadastrarrecepsionista" type="submit" class=" "><strong>Cadastro de Recepcionista</strong></a> </div>
         </form>

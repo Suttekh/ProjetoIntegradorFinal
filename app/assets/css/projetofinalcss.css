@@ -34,6 +34,13 @@ margin-right: 400px;
 #agenda{
 margin-top: 100px;
 justify-content: right;
+position: absolute;
+top: -40px;
+} 
+
+.haha{
+  position: absolute;
+  top: 22px;
 }
 
 #agenda2{
@@ -115,7 +122,10 @@ background-color:#d8d6d6;
 }
 .copyright-text
 {
-margin:0
+margin:0;
+
+color: black;
+
 }
 @media (max-width:991px)
 {
@@ -223,7 +233,7 @@ bottom: -15px;
 
 #botaoesq{
   position: absolute;
-  left: -110px;
+  left: -100px;
 }
 
 .icon-arrow-left{
@@ -238,7 +248,7 @@ bottom: -15px;
 #botaodirei{
 
   position: absolute;
-  right: -112px;
+  right: -100px;
 }
 
 html, body {
@@ -278,6 +288,12 @@ html, body {
  .contato{
    border: peru solid 1px; 
  }
+.planos{
+  width: 1350px;
+}
 
-
-
+#cardinici{
+  background-image: url(https://cdn.wallpapersafari.com/51/78/dltnIv.jpg);
+  background-repeat: no-repeat;
+ 
+}
